@@ -66,4 +66,14 @@ public class CarroController {
         }
     }
 
+
+    @GetMapping("/teste")
+    public ResponseEntity<String> findCarrosByAcimaAno(){
+        try{
+            return new ResponseEntity<>("Deu boaa", HttpStatus.OK);
+        }catch (Exception e){
+            return new ResponseEntity<>(null, HttpStatus.BAD_REQUEST);
+        }
+    }
+
 }
