@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Marca</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    @for (item of lista; track $index) {
+      <tr>
+        <td>{{ item.id }}</td>
+        <td>{{ item.nome }}</td>
+        <td>{{ item.marca }}</td>
+      </tr>
+    }
+</table>
