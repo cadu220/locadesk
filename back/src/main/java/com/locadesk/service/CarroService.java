@@ -15,10 +15,20 @@ public class CarroService {
 
 
     public Carro save(Carro carro){
+        this.verificarNomeCarro(carro.getNome(), carro.getAno());
         this.carroRepository.save(carro);
         return this.carroRepository.save(carro);
     }
+
+    public boolean verificarNomeCarro(String nome, int ano) {
+        if(nome.equals("Peugeot 308") && ano < 2013){
+            throw new RuntimeException();
+        }
+        return true;
+    }
+
     public Carro update(Carro carro, Long id){
+        this.verificarNomeCarro(carro.getNome(), carro.getAno());
         carro.setId(id);
         this.carroRepository.save(carro);
         return this.carroRepository.save(carro);
