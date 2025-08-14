@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27a54f05-4aef-4287-bca7-4be1b1cabb45" name="Changes" comment="Trocar diretorio back" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cadu220&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cadu220/locadesk.git&quot;,
+    &quot;accountId&quot;: &quot;751ae642-889f-45b8-8cc1-a49464633fdd&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="30L4WuNu0fzgu1YE3ePxhNmBi3f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CalculosApplication.executor": "Run",
+    "Application.LocadeskApplication.executor": "Run",
+    "JUnit.All in locadesk.executor": "Debug",
+    "JUnit.CarroServiceTest.cenario01.executor": "Run",
+    "JUnit.CarroServiceTest.executor": "Run",
+    "Maven.locadesk [clean].executor": "Run",
+    "Maven.locadesk [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/3571-openai-java-2-aula_3",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projetos-spring\calculos\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LocadeskApplication">
+    <configuration name="LocadeskApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.locadesk.LocadeskApplication" />
+      <module name="locadesk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in locadesk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locadesk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locadesk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.locadesk.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.locadesk.service" />
+      <option name="MAIN_CLASS_NAME" value="com.locadesk.service.CarroServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarroServiceTest.cenario01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locadesk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.locadesk.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.locadesk.service" />
+      <option name="MAIN_CLASS_NAME" value="com.locadesk.service.CarroServiceTest" />
+      <option name="METHOD_NAME" value="cenario01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in locadesk" />
+        <item itemvalue="JUnit.CarroServiceTest.cenario01" />
+        <item itemvalue="JUnit.CarroServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27a54f05-4aef-4287-bca7-4be1b1cabb45" name="Changes" comment="" />
+      <created>1753393553634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753393553634</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Envio incioa locadesk">
+      <option name="closed" value="true" />
+      <created>1753840105068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753840105068</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trocar diretorio back">
+      <option name="closed" value="true" />
+      <created>1755131239947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755131239947</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Trocar diretorio back">
+      <option name="closed" value="true" />
+      <created>1755131256656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755131256656</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Trocar diretorio back">
+      <option name="closed" value="true" />
+      <created>1755131282570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755131282570</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Envio incioa locadesk" />
+    <MESSAGE value="Trocar diretorio back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trocar diretorio back" />
+  </component>
+</project>
