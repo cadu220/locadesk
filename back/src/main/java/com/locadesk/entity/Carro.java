@@ -19,13 +19,16 @@ public class Carro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
+    @JoinColumn(name = "marca")
     private Marca marca;
-    private String modelo;
+    @ManyToMany
+    @JoinTable(name = "carro_acessorio")
+    private List<Acessorio> acessorio;
     private Integer ano;
 
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "carro_proprietario")
-    private List<Proprietario> proprietarios;
+//    @ManyToMany(cascade = CascadeType.ALL)
+//    @JoinTable(name = "carro_proprietario")
+//    private List<Proprietario> proprietarios;
 
 }
