@@ -1,0 +1,42 @@
+<div class="container">
+  <div
+    class="row justify-content-center display-flex align-items-center"
+    style="height: 50vh"
+  >
+    <div class="col-md-6">
+
+      <div class="card">
+        <div class="card-body">
+          <h1 class="text-center">Login</h1>
+          <br>
+            <mdb-form-control>
+              <input mdbInput type="text" id="user" class="form-control" [(ngModel)]="login.username"/>
+              <label mdbLabel class="form-label" for="user">Usuário</label>
+            </mdb-form-control>
+            <br />
+            <mdb-form-control>
+              <input
+                mdbInput
+                type="password"
+                id="password"
+                class="form-control"
+                [(ngModel)]="login.password"
+              />
+              <label mdbLabel class="form-label" for="password" >Senha</label>
+            </mdb-form-control>
+            <br />
+            <div class="d-flex justify-content-center">
+              <button
+                type="button"
+                class="btn btn-primary btn-rounded"
+                mdbRipple
+                (click)="onSubmit()"
+              >
+                Acessar
+              </button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

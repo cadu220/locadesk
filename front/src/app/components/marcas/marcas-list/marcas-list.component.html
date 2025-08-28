@@ -11,13 +11,23 @@
             >
               novo
             </button>
+            <!-- <button
+              class="btn btn-primary ms-auto "
+              routerLink="principal/marca/new"
+              routerLinkActive="router-link-active"
+            >
+              novo
+            </button> -->
+
           </div>
           <table class="table table-striped">
 
             <thead>
               <tr>
                 <th scope="col">ID</th>
+                <!-- <th scope="col">Modelo</th> -->
                 <th scope="col">nome</th>
+                <!-- <th scope="col">Ano</th> -->
                 <th class="col justify-content-center" >Ações</th>
               </tr>
             </thead>
@@ -25,11 +35,13 @@
               @for (item of lista; track $index) {
               <tr>
                 <td>{{ item?.id }}</td>
+                <!-- <td>{{ item.modelo }}</td> -->
                 <td  >{{ item?.nome }}</td>
+                <!-- <td>{{ item.ano }}</td> -->
                 <td>
                 <button
                     class="btn btn-primary"
-                    [routerLink]="['/principal/carros', item?.id]"
+                    [routerLink]="['/principal/marca', item?.id]"
                     routerLinkActive="router-link-active"
                   >
                     Editar
@@ -59,5 +71,5 @@
     (click)="modalRef.close()"
   ></button>
 </div>
-<div class="modal-body"><app-carros-details (retorno)="fecharModal($event)"></app-carros-details></div>
+<div class="modal-body"><app-marcas-details (retorno)="fecharModal($event)"></app-marcas-details></div>
 </ng-template>
