@@ -19,7 +19,7 @@
       #basicNavbar="mdbCollapse"
     >
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        @if(loginService.hasRole("ADMIN")){
+        @if(loginService.hasRole("ROLE_ADMIN")){
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="principal/carros"
             >carros</a

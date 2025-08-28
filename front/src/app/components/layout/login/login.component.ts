@@ -26,9 +26,9 @@ export class LoginComponent {
       next: (token) => {
         if (token) {
           this.loginService.addToken(token);
-          if (this.loginService.hasRole('ADMIN')) {
+          if (this.loginService.hasRole('ROLE_ADMIN')) {
             this.router.navigate(['principal/carros']);
-          } else if (this.loginService.hasRole('USER')) {
+          } else if (this.loginService.hasRole('ROLE_USER')) {
             this.router.navigate(['principal/marca']);
           }
         }
