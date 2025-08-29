@@ -71,6 +71,10 @@ Modal de inclusão
 Login
 <img width="1899" height="610" alt="image" src="https://github.com/user-attachments/assets/e84300fe-9f66-4043-9a77-904823452168" />
 
+Retorno de teste:
+<img width="382" height="293" alt="image" src="https://github.com/user-attachments/assets/4f245b88-d6d5-41d2-b112-79350ebd5fb4" />
+
+
 
 
 
